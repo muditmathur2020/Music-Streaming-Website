@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>َAnimated Login Form</title>
+    <link rel="stylesheet" href="lstyle.css">
+  </head>
+  <body>
+
+<form class="box" action="javascript:validate()" method="post">
+  <h1>Login</h1>
+  <input type="text" name="" placeholder="Username" id="text1">
+  <input type="password" name="" placeholder="Password" id="text2">
+  <input type="submit" name="" value="Login">
+   <a class="link" href="signup.html">SignUp</a>
+</form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("text1").value == "workshop"
+       && document.getElementById("text2").value == "workshop" )
+    {
+        alert( "validation succeeded" );
+		window.location.href = "indexin.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="login.html";
+    }
+}
+</script>
+
+
+  </body>
+</html>

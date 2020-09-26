@@ -1,0 +1,279 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="back.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+	
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.mainb {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+	
+	
+	
+</head>
+
+
+<body>
+
+
+<div class="sidenav">
+  <a href="#about">Moods</a>
+  <a href="#services">Albums</a>
+  <a href="#clients">Playlists</a>
+  <a href="login.html">LogOut</a>
+</div>
+
+
+
+<div class="mainb">
+
+
+    <div class="header">
+        <div class="container">
+    <nav class="navbar">
+    
+        <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+       
+        <a href="https://www.spotify.com/in/" class="logo">
+		<img src="spot.png" width=110px>
+		</a>
+        <ul class="main-nav" id="js-menu">
+          <li>
+            <a href="#" class="nav-links">Playlists</a>
+          </li>
+        
+          <li>
+            <a href="#" class="nav-links">Music</a>
+          </li>
+          <li>
+            <a href="index.html" class="nav-links">LogOut</a>
+          </li>
+          <li>
+            <a href="aboutus.html" class="nav-links">About Us</a>
+          </li>
+        <li>
+		<a href="login.html">
+            <img id="p" src="penguin.png" title="Signed In" />
+			</a>
+          </li>
+        </ul>
+       
+      </nav>
+</div>
+
+
+
+<!--Waves Container-->
+<div>
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+<defs>
+<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+</defs>
+<g class="parallax">
+<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+<use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+</g>
+</svg>
+</div>
+<!--Waves end-->
+
+</div>
+<!--Header ends-->
+
+<!--Content starts-->
+
+<!--Content ends-->
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="card">
+  <div class="card-image"></div>
+  <div class="card-text">
+    
+    <h2 id="font1">HOLLYWOOD DELIGHTS</h2>
+   
+  </div>
+  <div class="card-stats">
+    <div class="stat">
+      <div class="value">567865</div>
+      <div class="type">Views</div>
+    </div>
+    <div class="stat border">
+      <div class="value">5123</div>
+      <div class="type">Followers</div>
+    </div>
+    <div class="stat">
+      <div class="value">English</div>
+      <div class="type"></div>
+    </div>
+  </div>
+</div>
+
+<!-- card 2 -->
+<div class="card">
+  <div class="card-image2"></div>
+  <div class="card-text">
+   
+    <h2 id="font1">BOLLYWOOD HUNGAMA</h2>
+   
+  </div>
+  <div class="card-stats">
+    <div class="stat">
+      <div class="value">9987656</div>
+      <div class="type">Views</div>
+    </div>
+    <div class="stat border">
+      <div class="value">99876</div>
+      <div class="type">Followers</div>
+    </div>
+    <div class="stat">
+      <div class="value">Hindi</div>
+      <div class="type"></div>
+    </div>
+  </div>
+</div>
+
+<!--card3-->
+<div class="card">
+  <div class="card-image3"></div>
+  <div class="card-text">
+    
+    <h2 id="font1">MOST POPULAR</h2>
+   
+  </div>
+  <div class="card-stats">
+    <div class="stat">
+      <div class="value">567865</div>
+      <div class="type">Views</div>
+    </div>
+    <div class="stat border">
+      <div class="value">6654</div>
+      <div class="type">Followers</div>
+    </div>
+    <div class="stat">
+      <div class="value">Mixed</div>
+      <div class="type"></div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+
+<!-- Playlist -->
+<!--
+<div class="bigbox">
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"><img src="premila.jpg" width="230" height="300"></div>
+  <div class="playlistbox"><img src="duniyaa.jpg" width="230" height="300"></div>
+  <div class="playlistbox"><img src="kauntujhe.jpg" width="230" height="300"></div>
+</div>
+-->
+<!--
+<pre id="bb"><h1>  Popular Songs</h1></pre>
+<div class="bigbox">
+  <div class="playlistbox"><img src="duniyaa.png" width="150" height="150" ></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+</div>
+
+
+<pre id="bb"><h1>  Romantic Songs</h1></pre>
+
+<div class="bigbox">
+  
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+</div>
+
+
+<pre id="bb"><h1>  Bollywood Masala</h1></pre>
+<div class="bigbox">
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+</div>
+
+
+<pre id="bb"><h1>  Anjali's Favorite</h1></pre>
+<div class="bigbox">
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+  <div class="playlistbox"></div>
+</div>
+
+-->
+
+</div>
+</body>
+</html>
